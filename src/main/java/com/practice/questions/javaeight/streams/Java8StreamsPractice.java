@@ -30,7 +30,18 @@ public class Java8StreamsPractice {
 		List<String> uniqueElementMap = (List<String>) Arrays.stream(inp.split(""))
 				.collect(Collectors.groupingBy(Function.identity(), Collectors.counting())).entrySet().stream()
 				.filter(x -> x.getValue() == 1).map(Map.Entry::getKey).collect(Collectors.toList());
-		System.out.println(uniqueElementMap);//[d, e, v, y, l, n, o]
+		System.out.println(uniqueElementMap);// [d, e, v, y, l, n, o]
+
+		int i = 0;
+		long l = 2;
+
+		float f = 0;
+		//float ff = 2.0; // compilation error
+		float t = 2.0f;
+
+		double dd = 2;
+		double d = 2.4;
+		double ddd = 2.0d;
 
 	}
 

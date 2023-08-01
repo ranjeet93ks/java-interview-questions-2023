@@ -6,12 +6,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @SpringBootApplication
-public class PrevProjLrngApplication {
-	private static final Logger logger = LoggerFactory.getLogger(PrevProjLrngApplication.class);
+public class InterviewQuestionsApplication {
+	private static final Logger logger = LoggerFactory.getLogger(InterviewQuestionsApplication.class);
 
 	public static void main(String[] args) {
 		logger.info("PrevProjLrngApplication -> main() --> started ");
-		SpringApplication.run(PrevProjLrngApplication.class, args);
+		SpringApplication.run(InterviewQuestionsApplication.class, args);
 	}
 
 //	@Bean
