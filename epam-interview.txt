@@ -1,0 +1,25 @@
+epam-interview-questions --1st technical round:-
+1. diff b/w heap n stack
+2. features of java8
+3. features of datetime api of java8
+4. what is enableautoconfig
+5. what are @component, @controller, @service n @repository
+6. String literals , == , intern() method
+7. diff b/w hasmap n linkedhashmap
+8. string/string buffer/string builder
+9. immutable class
+10.types of transaction
+11.indexes on tables --advantage n disadvantage
+12.disadvantage of microservices and few more questions on microservices
+13.diff b/w rest n soap
+14.SOLID principle
+15.Design pattern
+16.How to create immutable class?
+17.
+
+
+
+program:-
+1. using java8 find first non-repeating char of a string
+2. list to set using java8
+3. 
